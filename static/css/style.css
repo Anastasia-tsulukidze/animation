@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "poppins";
+  src: url(./../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "monster";
+  src: url(./../fonts/Melted\ Monster.ttf);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  background-color: black;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.s-list {
+  display: flex;
+  margin-left: 50px;
+}
+.navigation {
+  text-decoration: none;
+  margin-right: 50px;
+  font-family: "poppins";
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 18px;
+  color: white;
+}
+.logo {
+  margin-left: 50px;
+  font-size: 25px;
+}
+.background {
+  background-image: url(./../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+  width: auto;
+  height: 1000px;
+}
+h1 {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  top: 170px;
+  left: 40%;
+  font-family: "monster";
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(12, 5, 39);
+  transition: width 2s, height 2s, transform 2s;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+h1:hover {
+  transform: rotate(330deg);
+  /* transform: scaleX(1); */
+}
+/* .middle-background {
+  background-image: url(https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/Grass_Silhouette_PNG_Clip_Art_Image.png?m=1467428102);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.gateanimation {
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  margin-bottom: -200px;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url(https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Silhouettes-PNG/Grass_Silhouette_PNG_Clip_Art_Image.png?m=1467428102);
+}
+.gateanimation:hover .gate1 {
+  transform: translateX(-100vh);
+  transition: 1s;
+}
+.gateanimation:hover .gate2 {
+  transform: translateX(100vh);
+  transition: 1s;
+}
+.content {
+  position: absolute;
+  width: 100%;
+
+  /* transform: translate(50%, 50%); */
+}
+.lorem-heading {
+  color: white;
+  font-family: "monster";
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  transition: width 2s, height 2s, transform 2s;
+  transition-timing-function: cubic-bezier(0.8, 1.9, 0.7, 0.11);
+}
+.lorem-p {
+  color: white;
+  font-family: "poppins";
+  width: 700px;
+  display: flex;
+  text-align: center;
+  text-align: center;
+  font-weight: 500;
+  line-height: 25px;
+  transition: width 2s, height 2s, transform 2s;
+  transition-timing-function: cubic-bezier(0.8, 1.9, 0.7, 0.9);
+}
+.lorem {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lorem-heading:hover {
+  transform: rotate(30deg);
+}
+.lorem-p:hover {
+  transform: rotate(-20deg);
+}
+.spider {
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+}
